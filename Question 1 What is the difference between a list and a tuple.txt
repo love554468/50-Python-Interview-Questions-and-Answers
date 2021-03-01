@@ -1,0 +1,36 @@
+sự khắc biệt list và tuple gồm cú pháp và nội dung
+
+cú pháp list = [,.,.,...]
+cú pháp tuple = (,.,.,...)
+
+list chứa 1 danh sách các phần tử khác nhau
+tuple thì cũng thế
+
+tuple là kiểu cấu trúc dữ liệu không thể thay đổi giá trị
+còn list thì có thể thay đổi 
+
+có thể nói tuple là 1 list nhưng có tính chất immuable
+
+điều mô tả tíhc chất này có lẽ được biểu diễn bằng các
+method được dùng cho list còn tuple thì không
+list.append, .extend, reversed, ...
+
+====
+
+chi tiết có lẽ để ở file ảnh
+list is stored in two blocks of memory
+tuple is stored in a single block of memory
+
+====
+when to use them
+
+tuple thì được lưu trữ khi thông tin người admin biết
+chắc chắn rằng chúng không thay đổi, ví dụ lưu trữ một 
+lượng thông tin cũ của học sinh trường đại học đã ra 
+trường thì tuple là một lựa chọn hay
+
+còn list thì sao?
+list cung cấp cách mà có thể cho phép người sử dụng
+thao tác như thêm sửa xoá,..., rất đa năng.
+trườnt hợp dùng list thì bất cứ việc gì khác ngoài
+lưu trữ thông tin không thay đổi
