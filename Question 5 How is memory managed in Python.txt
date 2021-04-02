@@ -1,0 +1,8 @@
+Nemory management is handled by the Python private heap space
+All python object and data structures are located in a private heap 
+The programmer doesn't have access to this private heap
+The python interpreter takes care of this instead
+Heap space for python object is allocated by Python's memory manager
+The core API give access to some tool for the programmer to code.
+Pyhon aslo has an in buit garbage collector , which recycles all the unused
+memory and so that it can be made avaiable to the heap space

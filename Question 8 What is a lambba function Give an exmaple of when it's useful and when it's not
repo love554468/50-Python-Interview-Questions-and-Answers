@@ -1,0 +1,32 @@
+Lợi Hại của Hàm ảo Lambda
+
+list_goc = [10, 9, 8, 7, 6, 1, 2, 3, 4, 5]
+
+list_moi = list(map(lambda a: a*2 , list_goc))
+
+A lambda function is a small anonymous function, which returns an object 
+the object returned by lambda is usually assigned to a varible or used as 
+a part of other bigger functions 
+
+Instead of the conventional def keyword used for creating functions a lambda
+function is defined by using the lambda keyword. The structure of lambda can 
+be seen below:
+
+lambda arguments: expression
+
+a lambda can have multiple arguments separated by commas
+Every lambda begins with the "lambda" keyword 
+A colon(:) precedes the expression
+the expression always return an object 
+
+The purpose of lambdas
+
+A lambda is much more readable than a full function since it can be written in 
+-line. So it's a good practice to use lambdas when the function expression is 
+small
+
+The beauty of lambda function is in the fact that return function object .
+This makes them helpful when used with function like map or filter, which require funcion 
+object as arguments.
+
+

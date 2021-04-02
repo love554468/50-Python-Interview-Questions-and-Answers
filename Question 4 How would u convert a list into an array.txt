@@ -1,0 +1,21 @@
+biến 1 lít thành array như thế nào
+
+
+import array as a 
+
+ar = a.array([1,2,3])
+=== trên là cách tạo 1 array từ lib array
+
+còn đây là cách tạo array từ 1 list 
+
+import numpy as np 
+
+lisst = [2,3,4]
+my_arr = np.array(lisst)
+
+when programming, there will be instances when u will need to convert existing 
+list to arrays in order perform certain operations on them
+(arrays enable mathemmatical operations to be performed on them in ways that lists do not)
+Here we'll be using numpy.array(). this funcion of the numpy library takes a list
+as an argument and return an array that contains all the elements of the list
+seee the example below:
