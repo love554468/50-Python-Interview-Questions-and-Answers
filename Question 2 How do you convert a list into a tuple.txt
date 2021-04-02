@@ -1,0 +1,14 @@
+==
+câu này không có gì đặc sắc lắm
+
+mình vứt các phần tử của list vào () của tuple để
+định nghĩa tuple đó
+
+list1 = ["1",2,3,"hihi"]
+
+tupe_list = (list1[0],list1[1],..,list1[len(list1)-1])
+
+hoặc
+
+tuple1 = (list1)
+

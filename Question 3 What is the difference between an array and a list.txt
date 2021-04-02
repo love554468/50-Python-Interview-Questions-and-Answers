@@ -1,0 +1,53 @@
+xem cái ảnh rõ hơn 
+
+array là list nhưng các phần tử phải giống nhau về
+kiểu dữ liệu
+
+cú pháp array sẽ gồm việc import thư viện và gọi 
+phương thứ array() để nhập liệu
+list thì thường là array 1 chiều còn array có thể
+khai báo rất nhiều chiều ?
+
+import array as a 
+
+ar = a.array([1,2,3])
+
+====
+list are very flexible and can hold arbitrary data
+array are just a thin wrapper on C arrays
+// list co the co gian con array thi hoi co dinh hon
+list are a part of python's syntax, so they do not need
+to be declared first
+
+array need to firt be imported or declared from other
+libraries
+
+list can resize quickly
+array cannot reisize, instead
+an array's values would need to be copied to another
+larger array
+
+list can hold heterogeneous data
+arr can only store homogenous data
+list chua nhieu kieu dl, con arr mot kieu thoi
+
+mathematical funcion cannot be directly applied to list1
+instead, they have to be individually applied to each 
+element
+arrays are specially optimized for arithmetic 
+computations
+mảng được tối ưu cho sự tính toán nó có hẳn thư viện
+còn list thì chỉ dùng với các elemnent của nó thôi
+không dùng được cả list cho tính toán 
+
+list consume more memory as they are allocated a few
+extra elements to allow for quicker appending of item
+list tiêu tốn nhièu bộ nhớ , nhưng mà nó có thể
+nối nhanh
+còn mảng giữ nguyên kích thước khi mới khỏi tạo
+nên là gọn nhẹ ít tốn bộ nhớ hơn
+
+
+
+
+
