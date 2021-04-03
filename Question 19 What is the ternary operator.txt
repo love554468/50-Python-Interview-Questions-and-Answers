@@ -1,0 +1,10 @@
+The ternary operator is a way of writing conditional statements in Python. 
+As the name ternary suggests, this Python operator consists of three 
+operands. 
+
+Note: the ternary operator can be thought of as a simplified, one-line 
+version of the if -else tate ment to test a condition 
+
+Value1 if condition else value2 
+
+if true -> value1 else value2 

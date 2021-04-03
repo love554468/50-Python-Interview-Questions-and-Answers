@@ -1,0 +1,7 @@
+In this section, we'll take a look at common coding interview questions that 
+pertain to list,linked lists,graphs, trees, multithreading/ concurrency and
+more.
+
+reverse  a string in python 
+string_name[::-1]
+

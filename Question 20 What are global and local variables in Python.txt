@@ -1,0 +1,7 @@
+Global variables: variables declared outside a function or in global space 
+are called global variables. These variables can be accessed by any function
+in the program .
+
+Local variables : Any variable declared inside a function is known as a 
+local variable. This variable is present in the local space and not in 
+the global space .

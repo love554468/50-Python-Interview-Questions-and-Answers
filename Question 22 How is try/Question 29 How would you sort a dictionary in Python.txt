@@ -1,0 +1,4 @@
+sorted by key: sorted(dic)
+sorted by value:
+    dic.values()
+    sorted(dic)

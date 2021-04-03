@@ -1,0 +1,4 @@
+dung thang __doc__ thoi 
+vi du int__doc__
+
+while if else ko duoc nha

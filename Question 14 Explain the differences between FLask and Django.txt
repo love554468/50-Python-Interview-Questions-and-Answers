@@ -1,0 +1,9 @@
+Django is a python web framework that offers an opensource high level framwork that encourage rapid development and clean 
+pragmatic design . It's fast, secure, and scalable. Django offers strong
+community support and detailed documentation.
+
+=== đoạn chưa đọc này
+The framework is an inclusive package, in which you get an admin panel, database interfaces, and directory structure right when you create the app. Furthermore, it includes many features, so you don’t have to add separate libraries and dependencies. Features it offers include user authentication, templating engine, routing, database schema migration, and much more.
+The Django framework, in which you can work with MVPs to larger companies, is incredibly flexible. For some perspective, some of the largest companies that use Django are Instagram, Dropbox, Pinterest, and Spotify.
+Flask is considered a microframework, which is a minimalistic web framework. It’s not “batteries-included,” meaning that it lacks a lot of features and functionality that full-stack frameworks like Django offer, such as a web template engine, account authorization, and authentication.
+Flask is minimalistic and lightweight, meaning that you add extensions and libraries that you need as you code without automatically being provided with it by the framework. The philosophy behind Flask is that it gives only the components you need to build an app so that you have the flexibility and control. In other words, it’s un-opinionated. Some features it offers are a build-int dev server, Restful request dispatching, HTTP request handling, and much more.

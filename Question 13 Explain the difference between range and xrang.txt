@@ -1,0 +1,11 @@
+Casi này cũng khá hay mới hiểu sơ sơ dùng rồi mà quên - sẽ đọc lại 
+
+for the most part, xrange and range have exactly the same functionality
+The both generate a list of integers for u to use. 
+The only difference is that range returns a python list object and xrange
+returns as xrange object 
+
+This means that xrange doesn't actually generate a static list at runtime
+as range does. It creates the values as u need them with a special technique
+called yielding . This technique is uesed with a type of object know
+as generators.

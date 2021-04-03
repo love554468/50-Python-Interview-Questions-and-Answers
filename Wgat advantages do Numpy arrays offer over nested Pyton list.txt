@@ -1,0 +1,28 @@
+Phân biệt list và array à
+
+- list thường dùng với chứng năng lưu trữ có nhiều 
+phép như thêm sửa xoá nối hoạc cắt, với ứng dụng 
+comprehension make them easy to cóntruct and maniplate
+Nhưng nó lại k support vectored - vector hoá ?
+
+Không dùng được các phép toán cho ma trận :))
+
+Nhưng numpy thì cực kì hữu dụng cho việc tính toán
+:)) vì nó có cả 1 thư viện hỗ trợ mà :D 
+
+Dùng cho fast searching, basic statistic , linear algebra, histogram
+
+======= eng sub :D 
+Python's lits are efficient general -purpose containers. They support(fairly
+) efficient insertion , deletion,appending and concatenation, and Python's 
+list comprehension make them easy to construct and manipulate. They have 
+certain limitations. They dont support vectorized operation like elementwise
+addition and multiplication and the fact that they can contain object of differing
+typy mean that Python must store type information for every element and must 
+excute type dispatching code when operating on each element. 
+
+Numpy is not only more efficient it's also more convenient . You get a lot of 
+vector and matrix operation fo free which somtines allow one to avoid unnecessary work
+they're also efficiently implemented.
+
+Numpy array is faster and you get a lot built in FFTs , convolution, fast searching basic statistics,linear algegra, histogram,etc

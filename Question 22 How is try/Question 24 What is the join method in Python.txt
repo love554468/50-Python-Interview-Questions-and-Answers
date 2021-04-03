@@ -1,0 +1,16 @@
+The join method in Python takes elements of an iterable data structure 
+and connects them together using a particular string connector value. 
+
+How does join work?
+
+the join method in Python is a string method, which connects elements of a 
+string iterable structure, which also contains string or characters
+(array, list, etc) by using a particular string as the connector 
+
+connector.join(iterable)
+
+connector : the string that will be used to join the elements of the array 
+iterable: the array whose elements will be joined together.
+
+Example: 
+",".join(['1','2','3'])

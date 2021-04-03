@@ -1,0 +1,3 @@
+__init__ is method or constructor in Python This method is automatically called
+to allocate memory when a new object.instance of a class is created .
+All classes have the __init__ method. 

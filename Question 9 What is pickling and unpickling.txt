@@ -1,0 +1,4 @@
+cau nay chua hieu me gi het 
+
+Pickle module accepts any Python object and converts it into a string representaion and dumps it into a file by using the dump function
+This process is called pickling, while the process of retrieving original Python objects from the stored string representation is called unpickling

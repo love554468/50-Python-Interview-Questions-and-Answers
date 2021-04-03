@@ -1,0 +1,23 @@
+caâu này nhiều chứ ghê ngại đọc xem code thôi vậy
+đọc sau hê hê 
+
+syntax: New DIctionary = {key:value for (key:value) in interable}
+
+ex:
+    list_crush = ["Minh Anh","Hường","Tuyết","Thảo","Chi","Vân","Hà"]
+    list_age_crush = [2000,2000,2000,2000,2000,2000,2000,2001]
+    inf_crush  =  {i:j for (i,j) in zip (list_crush,list_age_crush)}
+    print(inf_crush)
+============= ranh doc sau vay
+
+Dictionary comprehension is one way to create a dictionary in Python. It creates a dictionary by merging two sets of data which are in the form of either lists or arrays.
+The data of one of the two lists/arrays will act as the keys of the dictionary while the data of the second list/array will act as the values. Each key acts as a unique identifier for each value, hence the size of both lists/arrays should be the same.
+Here we’ll look at simple merging. Simple merging is merging or combining two lists without any restrictions. In other words, it’s the unconditional merging.
+The general syntax is as follows:
+
+Example
+The following example runs for the college’s database and uses simple merging. Imagine a college database storing lots of data — for example, students' addresses, grades, sections, fees, roll numbers, and so on. Now we need to identify each student uniquely and create a new dictionary that stores all students only. Our decision simply depends on two questions:
+What should be the key?
+What should be the value?
+Here we will choose roll numbers as key and names as the value because roll numbers are unique and names could be repetitive. So, Alex’s roll number is 122 so the tuple will look like 122: Alex. This will be better explained once you try the code attached below.
+rollNumbers =[122,233,353,456]

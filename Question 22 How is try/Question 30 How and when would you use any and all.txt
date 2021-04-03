@@ -1,0 +1,23 @@
+one_truth = [True, False, False]
+three_lies = [0, '', None]
+print(any(one_truth))
+print(any(three_lies))
+
+out put 
+
+True 
+False 
+
+============
+
+all_true = [True, 1, 'a', object()]
+one_true = [True, False, False, 0]
+all_false = [None, '', False, 0]
+print(all(all_true))
+print(all(one_true))
+print(all(all_false))
+
+Output:
+True
+False
+False

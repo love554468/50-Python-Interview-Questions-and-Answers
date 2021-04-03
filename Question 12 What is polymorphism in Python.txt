@@ -1,0 +1,4 @@
+Polymorphism means the ability to take multiple forms. For instance, if the parent class 
+has a method named ABC, the child class can also have a method with the
+same name ABC having its own parameters and variables. Python allows for 
+polymorphism 

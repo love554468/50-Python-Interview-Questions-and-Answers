@@ -1,0 +1,4 @@
+The @property is a decorator. In Python, decorators enable users to use the class
+in the same way
+The @property decorator allows a function to be accessed like an attribute
+

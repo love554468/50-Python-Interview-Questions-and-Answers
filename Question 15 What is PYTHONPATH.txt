@@ -1,0 +1,4 @@
+it's an environment variable, which is uesed when a module is imported 
+Whenever a module is imported, Python path is also look up to check for
+the presence of the imported modules in various directories.
+The interpreter uses it to determine which module to load . 
